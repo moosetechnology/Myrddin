@@ -15,7 +15,7 @@ BaselineOfMyrddin >> baseline: spec [
 				package: 'Myrddin-Browsers' with: [ spec requires: #('Myrddin-Core') ];
 				package: 'Myrddin-Core' with: [ spec requires: #('DBConnectionsManager' 'FAMIXNGSQL' 'Myrddin-Browsers' 'Myrddin-Report' 'Myrddin-Visualization') ];
 				package: 'Myrddin-Report';
-				package: 'Myrddin-Visualization' with: [ spec requires: #('Myrddin-Core' 'TelescopeCytoscape' 'FamixNGSQL') ].
+				package: 'Myrddin-Visualization' with: [ spec requires: #('TelescopeCytoscape' 'FamixNGSQL') ].
 			spec
 				baseline: 'DBConnectionsManager'
 				with: [ spec
