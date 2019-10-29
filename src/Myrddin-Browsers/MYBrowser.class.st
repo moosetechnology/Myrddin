@@ -23,11 +23,6 @@ MYBrowser >> entitiesWithType: constructor [
 		format: #asString
 ]
 
-{ #category : #'*Myrddin-Core' }
-MYBrowser >> famixEntities [
-	^Myrddin getInstance model entities
-]
-
 { #category : #action }
 MYBrowser >> famixTypeName: aEntity [
 	^aEntity class mooseDescription name
